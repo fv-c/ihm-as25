@@ -4,13 +4,13 @@ from matplotlib.patches import Patch
 
 # Sezioni con titoli, testi contratti, durate (minuti.frazioni) e colori
 sections = [
-    ("Frase I.1", "In the shadow of my shattered memories...\n...what was and will never be again.", 1.5, "#a6cee3"),
-    ("Frase I.2", "The wind carries the echo of promises...\n...for a light that has been extinguished.", 0.5, "#b2df8a"),
-    ("Frase I.3", "The walls of my palace...\n...a fragment of happiness now shattered.", 1.0, "#1f78b4"),
+    ("Frase I.1", "In the shadow of my shattered memories...\n...what was and will never be again.", .75, "#a6cee3"),
+    ("Frase I.2", "The wind carries the echo of promises...\n...for a light that has been extinguished.", .75, "#b2df8a"),
+    ("Frase I.3", "The walls of my palace...\n...a fragment of happiness now shattered.", .5, "#1f78b4"),
     ("Fixed media", "solo suono /\nnessuna voce", 2.0, "#fb9a99"),
     ("Frase I.4", "Like an abandoned queen...\n...through the columns of my dying kingdom.", 1.0, "#b2df8a"),
-    ("Frase I.5", "A lament fills the air...\n...blooming among stones.", 1.0, "#1f78b4"),
-    ("Frase I.6", "In the darkness of this abandonment...\n...with or without you.", 1.0, "#33a02c")
+    ("Frase I.5", "A lament fills the air...\n...blooming among stones.", 1.5, "#1f78b4"),
+    ("Frase I.6", "In the darkness of this abandonment...\n...with or without you.", 1.5, "#33a02c")
 ]
 
 # Funzione per convertire tempo decimale in minuti e secondi (es. 1.5 -> "1' 30\"")
